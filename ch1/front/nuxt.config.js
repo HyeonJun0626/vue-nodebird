@@ -17,7 +17,7 @@ module.exports = {
         https: false,
     },
     server: {
-        port: 3080,
+        port: process.env.PORT || 3080,
     },
     // webpack: (config, { isServer }) => {
     //     // Fixes npm packages that depend on `fs` module

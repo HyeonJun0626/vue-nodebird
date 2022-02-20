@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "PORT=80 nuxt start",
     "lint": "eslint **/*"
   },
   "author": "",
